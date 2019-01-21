@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Tweets</title>
+    <title>Snake</title>
 
     <script src="behavior.js"></script>
 
@@ -48,13 +48,12 @@
 
     <main>
       <article>
-        <h1>Tweets</h1>
-        <div>
-          <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hello World! <a href="https://twitter.com/hashtag/myfirstTweet?src=hash&amp;ref_src=twsrc%5Etfw">#myfirstTweet</a></p>&mdash; Patrick DeYoreo (@DeYoreoPatrick) <a href="https://twitter.com/DeYoreoPatrick/status/1086397923686936576?ref_src=twsrc%5Etfw">January 18, 2019</a></blockquote>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div id="snake_game">
+          <canvas id="gameCanvas" width="300" height="300"></canvas>
+          <script src="snake.js"></script>
         </div>
       </article>
-      
+
       <aside>
         <!-- Disqus Comments -->
         <div id="disqus_thread"></div>
